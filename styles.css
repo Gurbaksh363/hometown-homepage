@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #16253F;
+    font-family: "Ubuntu", serif;
+}
+
+#hero{
+    background-image: url("images/chandigarh.jpeg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hero-title{
+    background-color: #16253F;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    border-radius: 10px;   
+}
+#hero-subtitle{
+    background-color: #1A3D5B;
+    color: #FFFFFF;   
+    padding: 6px 28px;   
+    width: 550px;
+    border-radius: 10px;   
+}
+
+#activities-section{
+    background-color: #F1F8F6 ;
+    padding: 40px 10px 40px 10px;
+}
+#activities-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.acitivity{
+    width: 200px;
+}
+.activity-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+.activity-img:hover{
+    border:2px solid #16253F;
+    filter: brightness(1.1);
+}
+
+#guide-card{
+    display: flex;
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px 15px;
+    border-bottom: 4px solid #16253F;
+    border-radius: 10px;
+    background-color: #C9D7F7;
+}
+#guide-img{
+    width: 150px;
+    border-radius: 10px;
+}
